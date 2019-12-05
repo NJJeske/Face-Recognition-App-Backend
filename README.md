@@ -30,7 +30,7 @@ A JavaScript website that is used to highlight faces of random images. The purpo
 * Clarifai's Machine Learning API is used to detect images that contain a person's or persons' face(s).
 
 ## Website
-[]()
+[Face Recognition App](https://face-recognition-program.herokuapp.com/)
 
 ## Setup
 After you clone this repo to your desktop, go to its root directory and run `npm install` to install its dependencies.
