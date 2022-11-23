@@ -5,11 +5,10 @@ The back-end of a JavaScript website that is used to highlight faces of random i
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Features](#Features)
-* [Website](#Website)
 * [Setup](#setup)
 
 ## General info
-A JavaScript website that is used to highlight faces of random images. The purpose of this project was to advance my skills with React's framework to make a functional website. This website uses a Machine Learning API Key called Clarifai to provide a location of a person's face when given an image. The front-end consumes a Rest Service built of Express (Node.js back-end server) and Postgres SQL (Relational Database). The database stores account information such as name, email, password, number of image entries, and timestamp. The website is deployed through Heroku.
+A JavaScript website that is used to highlight faces of random images. The purpose of this project was to advance my skills with React's framework to make a functional website. This website uses a Machine Learning API Key called Clarifai to provide a location of a person's face when given an image. The front-end consumes a Rest Service built of Express (Node.js back-end server) and Postgres SQL (Relational Database). The database stores account information such as name, email, password, number of image entries, and timestamp.
 
 ## Technologies
 * React.js - version 16.12.0
@@ -28,9 +27,6 @@ A JavaScript website that is used to highlight faces of random images. The purpo
 ## Features
 * Passwords are encrypted and stored on the Postgres database using Bcrypt.
 * Clarifai's Machine Learning API is used to detect images that contain a person's or persons' face(s).
-
-## Website
-[Face Recognition App](https://face-recognition-program.herokuapp.com/)
 
 ## Setup
 After you clone this repo to your desktop, go to its root directory and run `npm install` to install its dependencies.
